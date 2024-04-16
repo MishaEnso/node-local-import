@@ -1,49 +1,48 @@
 {
-  "name": "node-local-import",
-  "description": "local",
-  "main": "index.js",
-  "engines": {
-    "node": "^18",
-    "npm": "^10"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MishaEnso/node-local-import"
-  },
-  "dependencies": {
-    "@amplitude/analytics-node": "^1.1.6",
-    "@amplitude/experiment-node-server": "^1.8.0",
-    "@amplitude/node": "^1.10.2",
-    "@aws-sdk/client-s3": "^3.495.0",
-    "@aws-sdk/lib-storage": "^3.490.0",
-    "@babel/core": "~7.23.7",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/preset-env": "~7.23.8",
-    "@google-cloud/bigquery": "^7.3.0",
-    "@google-cloud/storage": "~6.10.1",
-    "@handlebars/allow-prototype-access": "^1.0.5",
-    "@hapi/joi": "^15.0.3",
-    "@itly/plugin-iteratively-node": "^2.3.4",
-    "@itly/plugin-schema-validator": "^2.3.4",
-    "@itly/sdk": "^2.3.4",
-    "@kafkajs/confluent-schema-registry": "^3.2.1",
-    "@okta/okta-sdk-nodejs": "^7.0.1",
-    "@opentelemetry/api": "^1.4.0",
-    "@opentelemetry/exporter-jaeger": "^1.0.1",
-    "@opentelemetry/instrumentation-express": "0.34.1",
-    "@opentelemetry/instrumentation-http": "^0.45.1",
-    "@opentelemetry/instrumentation-ioredis": "0.36.1",
-    "@opentelemetry/instrumentation-pg": "^0.37.2",
-    "@opentelemetry/propagator-b3": "^1.0.1",
-    "@opentelemetry/resources": "^1.6.0",
-    "@opentelemetry/sdk-trace-base": "^1.0.1",
-    "@opentelemetry/sdk-trace-node": "^1.7.0",
-    "@opentelemetry/semantic-conventions": "^1.0.1",
-    "@patchui/productcl": "^2.14.2",
-    "@segment/analytics-node": "^2.0.0",
-
-  },
-  
-  
- 
+    "name": "node-local-import",
+    "description": "local",
+    "main": "index.js",
+    "engines":
+    {
+        "node": "^18",
+        "npm": "^10"
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/MishaEnso/node-local-import"
+    },
+    "dependencies":
+    {
+        "@amplitude/analytics-node": "^1.1.6",
+        "@amplitude/experiment-node-server": "^1.8.0",
+        "@amplitude/node": "^1.10.2",
+        "@aws-sdk/client-s3": "^3.495.0",
+        "@aws-sdk/lib-storage": "^3.490.0",
+        "@babel/core": "~7.23.7",
+        "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+        "@babel/preset-env": "~7.23.8",
+        "@google-cloud/bigquery": "^7.3.0",
+        "@google-cloud/storage": "~6.10.1",
+        "@handlebars/allow-prototype-access": "^1.0.5",
+        "@hapi/joi": "^15.0.3",
+        "@itly/plugin-iteratively-node": "^2.3.4",
+        "@itly/plugin-schema-validator": "^2.3.4",
+        "@itly/sdk": "^2.3.4",
+        "@kafkajs/confluent-schema-registry": "^3.2.1",
+        "@okta/okta-sdk-nodejs": "^7.0.1",
+        "@opentelemetry/api": "^1.4.0",
+        "@opentelemetry/exporter-jaeger": "^1.0.1",
+        "@opentelemetry/instrumentation-express": "0.34.1",
+        "@opentelemetry/instrumentation-http": "^0.45.1",
+        "@opentelemetry/instrumentation-ioredis": "0.36.1",
+        "@opentelemetry/instrumentation-pg": "^0.37.2",
+        "@opentelemetry/propagator-b3": "^1.0.1",
+        "@opentelemetry/resources": "^1.6.0",
+        "@opentelemetry/sdk-trace-base": "^1.0.1",
+        "@opentelemetry/sdk-trace-node": "^1.7.0",
+        "@opentelemetry/semantic-conventions": "^1.0.1",
+        "@patchui/productcl": "^2.14.2",
+        "@segment/analytics-node": "^2.0.0"
+    }
 }
